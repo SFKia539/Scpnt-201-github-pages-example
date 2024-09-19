@@ -29,13 +29,13 @@ body {
 
 .card.flipped {
   background-color: #fff;
-  color: #333;
+  color: #0003a9;
 }
 
 .card {
-  width: 200px;
-  height: 200px;
-  background-color: #333;
+  width: 100px;
+  height: 100px;
+  background-color: #0003a9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,12 +46,12 @@ body {
 }
 
 .card.hidden {
-  background-color: #333;
+  background-color: #0003a9;
   color: transparent; /* Keep icon hidden */
 }
 
 .card.flipped,
 .card.matched {
   background-color: #fff;
-  color: #333; /* Show icon when flipped or matched */
+  color: #0003a9; /* Show icon when flipped or matched */
 }
